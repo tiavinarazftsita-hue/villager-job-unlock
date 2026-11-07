@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="All rights reserved"
+
+[[mods]]
+modId="villagerjobunlock"
+version="1.0.0"
+displayName="Villager Job Unlock"
+description='''
+Un villageois (même Maître) qui a déjà fait un trade peut quand même changer de métier
+quand son bloc de métier est cassé.
+'''
+
+[[dependencies.villagerjobunlock]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.villagerjobunlock]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
